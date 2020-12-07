@@ -7,13 +7,13 @@ namespace WishList.Controllers
         // GET
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         //GET
         public IActionResult Error()
         {
-            return View();
+            return View("Error");
         }
     }
 }
