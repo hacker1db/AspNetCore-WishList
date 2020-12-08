@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WishList.Models;
 
 namespace WishList.Views.Home
 {

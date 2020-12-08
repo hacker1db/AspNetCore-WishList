@@ -2,7 +2,7 @@
 
 namespace WishList.Models
 {
-    public abstract class Item
+    public class Item
     {
         public int Id { get; set; }
 
