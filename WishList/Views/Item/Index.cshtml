@@ -1,6 +1,15 @@
 @page
-@model WishList.Models.Item
+@model List<wishList.Models.Item>
+
 
 @{
     Layout = null;
 }
+<h1>WishList</h1>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Description<a asp-action="delete" asp-route-id="@item.id"/>delete</li>
+    }
+</ul>
