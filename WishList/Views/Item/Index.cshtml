@@ -1,0 +1,15 @@
+@model WishList.Models.Item
+
+@{
+    Layout = null;
+}
+
+<h1><a asp-action="Create"> Add Item 
+    <ul @foreach (var item in Model)</ul>
+    <li>
+        @Model.Description < asp-action="delete" asp-route-id="Id">
+
+    </li> 
+    <ul/>
+    }> 
+    </a></h1>
